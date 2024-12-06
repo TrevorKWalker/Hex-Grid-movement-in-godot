@@ -1,0 +1,17 @@
+{
+	"map_name": "Forest Map",
+	"hexes": [
+		{ "q": 0, "r": 0, "s": 0, "walkable": true, "terrain": "grass" , "movecost":1},
+		{ "q": 1, "r": -1, "s": 0, "walkable": true, "terrain": "grass" , "movecost":1},
+		{ "q": -1, "r": 1, "s": 0, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -2, "r": 2, "s": 0, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -1, "r": 0, "s": 1, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": 0, "r": -1, "s": 1, "walkable": true, "terrain": "grass", "movecost":1 },
+		{"q": 0, "r": 1, "s": -1, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -3, "r": 3, "s": 0, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -4, "r": 3, "s": 1, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -4, "r": 2, "s": 2, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -3, "r": 1, "s": 2, "walkable": true, "terrain": "grass" , "movecost":1},
+		{"q": -2, "r": 0, "s": 2, "walkable": true, "terrain": "grass" , "movecost":5},
+	]
+}
