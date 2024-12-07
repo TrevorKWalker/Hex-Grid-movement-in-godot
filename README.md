@@ -9,3 +9,7 @@ The research and development of this project is based of [Red Blog Games hex gui
 This project can be split into 3 main sections: `Hexgrid class`, `Hexcell class` and `player class`. lets start with the `HexCell` class.
 
 ### HexCell class
+The HexCell class serves as the basis of our grid. It contains all the information that is unique to each cell such as the cube coords, pixel coords, walkability, and movement cost. When created it will istantiate all of its variables and that is it. The class also contains functions to convert between pixel and cube coords and back.
+
+## HexGrid Class
+This class contains an array of HexCell objs that make up the map. it has a function that will read in a .json file (that must be set up properly) and then create and add to the scene all of the hexes that are in the json file. This class also has the ability to find hex based of of pixel coords(important for the player class) , and a function find path that will find the shorest path ( based on movement cost) between two hexes. the find path algorithm is based off of dijkstras algorithm. Dijkstras is neccassary over other search algorithms such as BFS because of the possibility of the hexes having a different movement cost to cross.
