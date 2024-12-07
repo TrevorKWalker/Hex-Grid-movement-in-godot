@@ -6,4 +6,6 @@ The research and development of this project is based of [Red Blog Games hex gui
 
 ## My implementation
 
-This project can be split into 3 main sections: `Hexgrid class`, `Hexcell class` and `player class`
+This project can be split into 3 main sections: `Hexgrid class`, `Hexcell class` and `player class`. lets start with the `HexCell` class.
+
+### HexCell class
